@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia</title>
+</head>
+<body>
+    <h1>Dynamic images</h1>
+    <p>Open this site on multiple devices </p>
+
+
+    <picture>
+        <source media="(max-width:750px )" srcset="images/photo-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="images/photo-m.png" type="image/png">
+        <img src="images/photo-g.png" alt="flexible image">
+    </picture>
+
+    <h1>Audio</h1>
+    <p>Lets learn to play  audio</p>
+   <audio preload="metadata" autoplay controls loop>
+       <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+       <source src="midia/guanacast-33.mp3" type="audio/ogg">
+       <source src="midia/guanacast-33.mp3" type="audio/wav">
+       <p>Your browser dont can to play audios </p>
+       <p><a href="midia/guanacast-33.mp3">  Dowload the file</a></p>
+   </audio>
+</body>
+</html>

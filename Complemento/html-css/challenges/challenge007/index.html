@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible</title>
+</head>
+<body>
+    <h1>Flexible image</h1>
+    <p>Do you see the complete image? Try changing the screen size &#x1F600; </p>
+    <picture>
+        <source media="(max-width:750px )" srcset="images/paisagem-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="images/paisagem-m.png" type="image/png">
+        <img src="images/paisagem-g.png" alt="flexible image">
+    </picture>
+</body>
+</html>
